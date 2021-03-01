@@ -12,6 +12,8 @@ Although multi-person 2D pose estimation has made great progress in recent years
 | d | ResNeSt-50 | 256x192 | v | 1 | Deconv | 70.2 | 66.7 | 76.8 |
 | e | ResNeSt-50 | 384x288 | √ | 3 | Deconv | 72.4 | 68.1 | 79.9 |
 | f | ResNeSt-101 | 384x288 | v | 3 | Deconv | 73.7 | 69.7 | 81.0 |
+
+
 **Note**: Ablation study of our method on COCO val2017 dataset. **BI** and **Deconv** represent two upsampling methods respectively, **BI** refers to bilinear interpolation, and **Deconv** refers to upsampling using transposed convolution.
 
 ##  Comparisons on COCO test-dev dataset
